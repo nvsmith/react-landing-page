@@ -4,7 +4,7 @@ import { Container, Row, Col } from "react-grid-system";
 
 class App extends React.Component {
     render() {
-        return <h1>Hello World</h1>;
+        return <LandingPage />;
     }
 }
 
