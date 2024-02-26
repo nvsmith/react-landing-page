@@ -10,3 +10,5 @@ class Divider extends React.Component {
         );
     }
 }
+
+export default Divider;

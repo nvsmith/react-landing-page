@@ -13,3 +13,5 @@ class SlackChannel extends React.Component {
         );
     }
 }
+
+export default SlackChannel;

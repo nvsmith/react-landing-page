@@ -10,3 +10,5 @@ class Heading extends React.Component {
         );
     }
 }
+
+export default Heading;

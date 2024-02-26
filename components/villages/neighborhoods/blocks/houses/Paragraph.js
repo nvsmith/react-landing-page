@@ -13,3 +13,5 @@ class Paragraph extends React.Component {
         );
     }
 }
+
+export default Paragraph;

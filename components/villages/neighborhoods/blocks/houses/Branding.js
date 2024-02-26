@@ -11,3 +11,5 @@ class Branding extends React.Component {
         );
     }
 }
+
+export default Branding;

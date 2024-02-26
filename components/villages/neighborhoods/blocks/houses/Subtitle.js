@@ -10,3 +10,5 @@ class Subtitle extends React.Component {
         );
     }
 }
+
+export default Subtitle;

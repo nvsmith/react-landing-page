@@ -11,3 +11,5 @@ class Laptop extends React.Component {
         );
     }
 }
+
+export default Laptop;
