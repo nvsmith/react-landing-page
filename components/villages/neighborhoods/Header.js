@@ -2,6 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { Container, Row, Col } from "react-grid-system";
 
+import Navigation from "./blocks/Navigation";
+import CallToAction from "./blocks/CallToAction";
+import SlackChannel from "./blocks/houses/SlackChannel";
 class Header extends React.Component {
     render() {
         return (
@@ -23,3 +26,5 @@ class Header extends React.Component {
         );
     }
 }
+
+export default Header;

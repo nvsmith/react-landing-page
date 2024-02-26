@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { Container, Row, Col } from "react-grid-system";
 import ArticleCover from "./blocks/houses/ArticleCover";
-
+import SectionDescription from "./blocks/SectionDescription";
 class SectionB extends React.Component {
     render() {
         return (
@@ -17,3 +17,5 @@ class SectionB extends React.Component {
         );
     }
 }
+
+export default SectionB;
