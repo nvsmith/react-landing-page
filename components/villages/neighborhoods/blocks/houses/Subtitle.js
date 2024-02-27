@@ -5,7 +5,7 @@ class Subtitle extends React.Component {
     render() {
         return (
             <div>
-                <h3 className="subtitle">Random article to random friend in Slack everyday</h3>;
+                <h3 className="subtitle">Send an article to a Slack friend everyday</h3>
             </div>
         );
     }

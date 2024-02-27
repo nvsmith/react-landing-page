@@ -5,11 +5,11 @@ import { Container, Row, Col } from "react-grid-system";
 class DemoLink extends React.Component {
     render() {
         return (
-            <div>
+            <Col lg={6}>
                 <a href="#">
                     <span className="demo-link">Demo</span>
                 </a>
-            </div>
+            </Col>
         );
     }
 }
