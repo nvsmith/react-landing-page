@@ -7,15 +7,9 @@ import DemoLink from "./houses/DemoLink";
 class Navigation extends React.Component {
     render() {
         return (
-            <div>
-                <Col lg={6}>
-                    <Branding />
-                </Col>
-
-                <Col lg={6}>
-                    <DemoLink />
-                </Col>
-            </div>
+            <Col lg={6}>
+                <Branding />
+            </Col>
         );
     }
 }

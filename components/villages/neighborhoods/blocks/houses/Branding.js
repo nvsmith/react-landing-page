@@ -6,9 +6,9 @@ import Bot from "/img/bot.png";
 class Branding extends React.Component {
     render() {
         return (
-            <div>
+            <a href="#">
                 <img className="branding" src={Bot} alt="DevBot" />
-            </div>
+            </a>
         );
     }
 }
