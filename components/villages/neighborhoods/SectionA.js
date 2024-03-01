@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { Container, Row, Col } from "react-grid-system";
-
 import SectionDescription from "./blocks/SectionDescription";
 import Laptop from "./blocks/houses/Laptop";
 
