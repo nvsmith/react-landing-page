@@ -1,15 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { Container, Row, Col } from "react-grid-system";
+// import { Container, Row, Col } from "react-grid-system";
 
 class DemoLink extends React.Component {
     render() {
         return (
-            <Col lg={6}>
+            <div>
                 <a href="#">
-                    <span className="demo-link">Demo</span>
+                    <span className="demo-link">DEMO</span>
                 </a>
-            </Col>
+            </div>
         );
     }
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { Container, Row, Col } from "react-grid-system";
+// import { Container, Row, Col } from "react-grid-system";
 import Bot from "/img/bot.png";
 
 class Branding extends React.Component {
