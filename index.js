@@ -12,7 +12,7 @@ class App extends React.Component {
         return (
             <Router>
                 <Routes>
-                    <Route exact path="/" element={<LandingPage />} />
+                    <Route path="/" element={<LandingPage />} />
                     <Route path="/demo" element={<Demo />} />
                 </Routes>
             </Router>
