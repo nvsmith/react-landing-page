@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
-import { Container, Row, Col } from "react-grid-system";
-// import { createRoot } from "react-dom/client";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+// import { Container, Row, Col } from "react-grid-system";
 import LandingPage from "./components/villages/LandingPage";
 import Demo from "./components/villages/Demo";
 import css from "./styles/landing-page.css";
 
+// import { createRoot } from "react-dom/client";
 class App extends React.Component {
     render() {
         return (
@@ -21,6 +21,7 @@ class App extends React.Component {
 }
 
 ReactDOM.render(<App />, document.getElementById("app"));
+
 // const container = document.getElementById("app");
 // const root = createRoot(container);
 // root.render(<App tab="Home" />);
